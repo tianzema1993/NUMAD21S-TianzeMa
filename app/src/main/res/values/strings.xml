@@ -6,8 +6,15 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="about">About</string>
     <string name="previous">Previous</string>
-
+    <string name="clicky">Clicky Clicky</string>
     <string name="hello_world">Hello World</string>
     <string name="self_intro">Tianze Ma\n\ntianzema1993@gmail.com</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="default_display">Press a button to start</string>
 </resources>
