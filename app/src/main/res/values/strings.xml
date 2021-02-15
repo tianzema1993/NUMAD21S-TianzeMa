@@ -6,7 +6,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="about">About</string>
     <string name="previous">Previous</string>
-    <string name="clicky">Clicky Clicky</string>
+    <string name="clicky">Clicky</string>
     <string name="hello_world">Hello World</string>
     <string name="self_intro">Tianze Ma\n\ntianzema1993@gmail.com</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
@@ -17,4 +17,8 @@
     <string name="E">E</string>
     <string name="F">F</string>
     <string name="default_display">Press a button to start</string>
+    <string name="links">Links</string>
+    <string name="web_name">Web Name</string>
+    <string name="url">URL</string>
+    <string name="go">Go!</string>
 </resources>
