@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.neu.madcourse.numad21s_tianzema">
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -9,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_tm_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21STianzeMa">
-        <activity android:name=".LinkActivity"></activity>
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".LinkActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".ClickyActivity" />
         <activity

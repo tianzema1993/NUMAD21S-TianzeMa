@@ -21,4 +21,7 @@
     <string name="web_name">Web Name</string>
     <string name="url">URL</string>
     <string name="go">Go!</string>
+    <string name="location">Location</string>
+    <string name="lat">Latitude:&#160;</string>
+    <string name="lon">Longitude:&#160;</string>
 </resources>
