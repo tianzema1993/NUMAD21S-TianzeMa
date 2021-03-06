@@ -21,7 +21,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private static final int PERMISSION_REQUEST_LOCATION = 0;
-    private final String TAG = "MyActivity";
+    private final String TAG = "MainActivity";
     private View mLayout;
 
     @Override
@@ -73,6 +73,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showLocationPreview();
+            }
+        });
+
+        Button buttonWeb = findViewById(R.id.button_web);
+        buttonWeb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WebServiceActivity.class);
+                startActivity(intent);
             }
         });
     }

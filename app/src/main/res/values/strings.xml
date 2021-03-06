@@ -24,4 +24,7 @@
     <string name="location">Location</string>
     <string name="lat">Latitude:&#160;</string>
     <string name="lon">Longitude:&#160;</string>
+    <string name="web">Web Service</string>
+    <string name="zip_hint">Please enter any US ZipCode (5 digits)</string>
+    <string name="zip_search">Search detailed address</string>
 </resources>
